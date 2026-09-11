@@ -126,14 +126,14 @@ function ActiveTimer(props: ActiveTimerProps) {
             "bg-red-600 hover:bg-red-500": isRunning(),
             "bg-green-700 hover:bg-green-600": !isRunning(),
           }}
-          class="cursor-pointer text-white font-bold py-4 px-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center"
+          class="cursor-pointer text-white font-bold p-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center"
         >
           <Show
             when={isRunning()}
             fallback={
               <>
                 <svg
-                  class="w-6 h-6 mr-2"
+                  class="size-6 mr-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -157,7 +157,7 @@ function ActiveTimer(props: ActiveTimerProps) {
             }
           >
             <svg
-              class="w-6 h-6 mr-2"
+              class="size-6 mr-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -177,10 +177,10 @@ function ActiveTimer(props: ActiveTimerProps) {
         <button
           type="button"
           onClick={resetTimer}
-          class="cursor-pointer bg-gray-600 hover:bg-gray-500 text-white font-bold py-4 px-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center"
+          class="cursor-pointer bg-gray-600 hover:bg-gray-500 text-white font-bold p-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center"
         >
           <svg
-            class="w-6 h-6 mr-2"
+            class="size-6 mr-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -203,7 +203,7 @@ function ActiveTimer(props: ActiveTimerProps) {
         class="cursor-pointer w-full bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-4 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center"
       >
         <svg
-          class="w-5 h-5 mr-2"
+          class="size-5 mr-2"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

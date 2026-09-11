@@ -81,7 +81,7 @@ function TimerSetup(props: TimerSetupProps) {
         class="cursor-pointer w-full bg-green-700 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl transition-all transform hover:scale-105 active:scale-95 touch-manipulation shadow-lg flex items-center justify-center space-x-2"
       >
         <svg
-          class="w-6 h-6"
+          class="size-6"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
