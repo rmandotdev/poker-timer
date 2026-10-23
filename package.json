@@ -38,12 +38,12 @@
     "zod": "4.6.7"
   },
   "dependencies": {
-    "astro": "7.3.3",
+    "astro": "7.4.2",
     "solid-js": "1.9.17",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
-    "@astrojs/solid-js": "7.0.2",
+    "@astrojs/solid-js": "7.1.1",
     "@biomejs/biome": "2.6.2",
     "@gameroman/config": "0.3.0",
     "@serwist/astro": "10.0.0-preview.14",
