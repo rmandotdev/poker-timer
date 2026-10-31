@@ -12,7 +12,8 @@ export default defineConfig({
         short_name: "Poker Timer",
         theme_color: "#016630",
         icons: [
-          { src: "icons/1024.jpg", sizes: "1024x1024", type: "image/jpeg" },
+          { src: "icons/192x192.png", sizes: "192x192", type: "image/png" },
+          { src: "icons/512x512.png", sizes: "512x512", type: "image/png" },
         ],
       },
     }),
