@@ -10,7 +10,7 @@ export default defineConfig({
       manifest: {
         name: "Poker Timer",
         short_name: "Poker Timer",
-        theme_color: "#016630",
+        theme_color: "#14532d",
         icons: [
           { src: "icons/192x192.png", sizes: "192x192", type: "image/png" },
           { src: "icons/512x512.png", sizes: "512x512", type: "image/png" },

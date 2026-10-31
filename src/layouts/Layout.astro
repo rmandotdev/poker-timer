@@ -32,12 +32,8 @@ const { title, description } = Astro.props;
     <meta name="twitter:description" content={description} />
 
     <link rel="canonical" href={canonical} />
-    <meta name="theme-color" content="#14532d" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
+
+    <link rel="apple-touch-icon" href="/icons/192x192.png" />
 
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
 
