@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "astro": "7.4.4",
-    "solid-js": "1.9.18",
+    "solid-js": "1.9.19",
     "tailwindcss": "4.3.4"
   },
   "devDependencies": {
